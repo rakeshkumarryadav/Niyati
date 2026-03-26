@@ -1,0 +1,33 @@
+{
+  "name": "niyati-browser",
+  "version": "2.1.0",
+  "description": "IndiaMART Lead Management Tool with Electron 39 - Security Hardened",
+  "private": true,
+  "main": "main.js",
+  "author": "Niyati Team",
+  "license": "PROPRIETARY",
+  "scripts": {
+    "start": "electron .",
+    "dev": "QUIET=0 electron .",
+    "test": "echo 'No tests configured yet'",
+    "clean": "rm -rf node_modules package-lock.json && npm install",
+    "rebuild": "npm rebuild"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+   "dependencies": {},
+  "devDependencies": {
+
+    "electron": "30.5.0"
+  },
+  "keywords": [
+    "indiamart",
+    "automation",
+    "leads",
+    "electron",
+    "browser",
+    "security-hardened"
+  ]
+}
